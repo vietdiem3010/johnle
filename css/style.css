@@ -31,7 +31,9 @@ a:hover {
     width: 1200px;
   }
 }
-
+img {
+  max-width: 100%;
+}
 /* Header */
 header {
   background: #244d3d;
@@ -44,7 +46,7 @@ header {
   align-items: center;
 }
 
-.header-menu>ul {
+.header-menu > ul {
   display: flex;
   align-items: center;
   list-style: none;
@@ -89,9 +91,9 @@ ul.header-menu-child li a:hover,
   position: relative;
 }
 
-.header-menu ul li.menu-has-child>a:before {
+.header-menu ul li.menu-has-child > a:before {
   content: "\f107";
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   color: #fff;
   font-size: 20px;
   position: absolute;
@@ -153,8 +155,12 @@ li.menu-has-child {
   width: 100%;
   height: 100%;
 }
-
-.banner-inner h1 {font-size: 55px;margin: 0;margin-bottom: 8px;font-weight: bold;}
+.banner-inner h1 {
+  font-size: 55px;
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
 
 .banner-box {
   position: relative;
@@ -180,8 +186,127 @@ li.menu-has-child {
   display: inline-block;
 }
 /* End banner  */
+/* Start delivering  */
+.delivering-text ul li:before {
+  color: #fff;
+  counter-increment: section;
+  content: counter(section);
+  flex: 0 0 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: #d74d3e;
+  font-size: 14px;
+  margin-right: 15px;
+}
 
+.delivering-text ul {
+  counter-reset: section;
+}
+.delivering-heading {
+  background: #234d3d;
+  position: relative;
+  transform: translateY(-50%);
+}
 
+.delivering-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
 
+.delivering-item {
+  text-align: center;
+  color: #fff;
+}
 
+.delivering-item h4 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 100%;
+  margin-bottom: 15px;
+}
 
+.delivering-item h5 {
+  color: #e34d44;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.delivering-item p {
+  font-size: 13px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+.delivering-info {
+  display: flex;
+}
+
+.delivering-image {
+  width: 40%;
+}
+
+.delivering-text {
+  width: 60%;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+.delivering-text h4 {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #245c43;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.delivering-text h4 span {
+  color: #e34d44;
+}
+
+.delivering-text h2 {
+  margin: 0;
+  margin-bottom: 35px;
+  position: relative;
+  color: #245c43;
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 35px;
+}
+
+.delivering-text h2:before {
+  content: "";
+  background: #d74d3e;
+  height: 1px;
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+}
+
+.delivering-text p {
+  font-size: 13px;
+  color: #202020;
+  margin-bottom: 15px;
+}
+
+.delivering-text ul {
+  list-style: none;
+  margin: 0;
+}
+
+.delivering-text ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.delivering-text ul li+li {
+  margin-top: 12px;
+}
+/* End delivering  */
