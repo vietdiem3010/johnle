@@ -1204,4 +1204,30 @@ ul.popup-form-social a {
   background: url(../images/bg_about_2.png) no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 100px 0;
+}
+.about-list-inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.about-list-item {
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+.about-list-item h4 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-list-item p {
+  margin: 0 auto;
+  font-size: 16px;
+  max-width: 80%;
 }
