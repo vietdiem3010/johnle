@@ -50,7 +50,7 @@ header {
   align-items: center;
 }
 
-.header-menu>ul {
+.header-menu > ul {
   display: flex;
   align-items: center;
   list-style: none;
@@ -89,7 +89,7 @@ ul.header-menu-child li a:hover,
   position: relative;
 }
 
-.header-menu ul li.menu-has-child>a:before {
+.header-menu ul li.menu-has-child > a:before {
   content: "\f107";
   font-family: "FontAwesome";
   color: #fff;
@@ -167,10 +167,6 @@ li.menu-has-child {
 }
 
 @media (max-width: 767px) {
-  .header-menu {
-    display: none;
-  }
-
   .header-bar i {
     font-size: 26px;
     color: #fff;
@@ -185,7 +181,7 @@ li.menu-has-child {
     height: 0;
     transition: 0.5s;
     opacity: 0;
-    visibility: visible;
+    visibility: hidden;
     display: block;
     z-index: 9;
   }
@@ -210,7 +206,7 @@ li.menu-has-child {
     visibility: visible;
   }
 
-  .header-menu>ul {
+  .header-menu > ul {
     flex-direction: column;
     width: 100%;
     align-items: self-start;
@@ -220,13 +216,13 @@ li.menu-has-child {
     color: #000;
   }
 
-  .header-menu>ul>li {
+  .header-menu > ul > li {
     display: block;
     width: 100%;
     padding: 10px 20px;
   }
 
-  .header-menu ul li.menu-has-child>a:before {
+  .header-menu ul li.menu-has-child > a:before {
     right: 0;
     color: #000;
   }
@@ -244,7 +240,7 @@ li.menu-has-child {
     transition: 0.5s;
   }
 
-  .header-menu ul li.menu-has-child>a.is-show:before {
+  .header-menu ul li.menu-has-child > a.is-show:before {
     content: "\f106";
   }
 }
@@ -422,7 +418,7 @@ li.menu-has-child {
   font-size: 13px;
 }
 
-.delivering-text ul li+li {
+.delivering-text ul li + li {
   margin-top: 12px;
 }
 
@@ -444,7 +440,7 @@ li.menu-has-child {
     flex-wrap: wrap;
   }
 
-  .delivering-info>div {
+  .delivering-info > div {
     width: 100%;
   }
 
@@ -483,7 +479,7 @@ li.menu-has-child {
   font-weight: bold;
 }
 
-.services-heading+.container {
+.services-heading + .container {
   position: relative;
   margin-top: -22%;
 }
@@ -592,7 +588,7 @@ li.menu-has-child {
   display: flex;
 }
 
-.project-inner>div {
+.project-inner > div {
   width: 50%;
 }
 
@@ -602,7 +598,7 @@ li.menu-has-child {
   padding-top: 40px;
 }
 
-.project-item+.project-item {
+.project-item + .project-item {
   margin-top: 40px;
 }
 
@@ -640,7 +636,7 @@ li.menu-has-child {
   min-height: 42px;
 }
 
-.project-button a+a {
+.project-button a + a {
   margin-left: 15px;
   background: transparent;
   color: #d3584c;
@@ -651,7 +647,7 @@ li.menu-has-child {
   color: #d3584c;
 }
 
-.project-button a+a:hover {
+.project-button a + a:hover {
   background: #d3584c;
   color: #fff;
 }
@@ -665,7 +661,7 @@ li.menu-has-child {
     flex-wrap: wrap;
   }
 
-  .project-inner>div {
+  .project-inner > div {
     width: 100%;
   }
 
@@ -824,7 +820,7 @@ li.menu-has-child {
   margin: 0 -25px;
 }
 
-.footer-top .row>div {
+.footer-top .row > div {
   padding: 0 25px;
 }
 
@@ -877,7 +873,6 @@ li.menu-has-child {
   color: #fff;
   font-size: 25px;
 }
-
 
 .footer-copyright {
   background: #d3584c;
@@ -1230,4 +1225,94 @@ ul.popup-form-social a {
   margin: 0 auto;
   font-size: 16px;
   max-width: 80%;
+}
+.about-mission-vision {
+  display: flex;
+  background: #1f573f;
+  color: #fff;
+}
+
+.about-mission-vision > div {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-mission,
+.about-vision {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.about-mission-vision h4 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-mission-vision p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.about-vision {
+  background: url(../images/bg_about_1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about-contact {
+  background: #e7e7e7;
+  padding: 44px 0;
+}
+
+.about-contact-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-contact-inner p {
+  font-size: 19px;
+  color: #202020;
+  font-weight: 500;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .heading-page {
+    padding: 30px 0;
+  }
+
+  .heading-page h1 {
+    font-size: 30px;
+  }
+
+  .about-image {
+    display: none;
+  }
+
+  .about-story-text {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .about-list {
+    padding: 30px 0;
+  }
+
+  .about-list-item {
+    width: 100%;
+  }
+
+  .about-mission-vision {
+    flex-wrap: wrap;
+  }
+  .about-contact-inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-contact-inner p {
+    margin-bottom: 20px;
+  }
 }
