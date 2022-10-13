@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +16,7 @@
 }
 
 body {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a,
@@ -69,7 +70,7 @@ ul.header-menu-child {
 .header-menu ul li a {
   font-size: 16px;
   color: #fff;
-  font-weight: bold;
+  font-weight: 900;
   display: block;
   position: relative;
 }
@@ -262,7 +263,7 @@ li.menu-has-child {
   font-size: 55px;
   margin: 0;
   margin-bottom: 8px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .banner-box {
@@ -336,7 +337,7 @@ li.menu-has-child {
 .delivering-item h4 {
   margin: 0;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 100%;
   margin-bottom: 15px;
 }
@@ -345,7 +346,7 @@ li.menu-has-child {
   color: #e34d44;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .delivering-item p {
@@ -370,7 +371,7 @@ li.menu-has-child {
 
 .delivering-text h4 {
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
   color: #245c43;
   margin: 0;
@@ -387,7 +388,7 @@ li.menu-has-child {
   position: relative;
   color: #245c43;
   font-size: 34px;
-  font-weight: bold;
+  font-weight: 900;
   padding-bottom: 35px;
 }
 
@@ -469,14 +470,14 @@ li.menu-has-child {
   margin: 0;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 15px;
 }
 
 .services-heading h2 {
   margin: 0;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .services-heading+.container {
@@ -506,7 +507,7 @@ li.menu-has-child {
 .services-text h4 {
   margin: 0;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 20px;
 }
 
@@ -581,7 +582,7 @@ li.menu-has-child {
   margin: 0;
   font-size: 36px;
   color: #245c43;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .project-inner {
@@ -607,7 +608,7 @@ li.menu-has-child {
   color: #245c43;
   font-size: 16px;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .project-text p {
@@ -628,7 +629,7 @@ li.menu-has-child {
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
   transition: 0.3s;
   display: flex;
   align-items: center;
@@ -714,7 +715,7 @@ li.menu-has-child {
 .request-form h2 {
   font-size: 36px;
   color: #fff;
-  font-weight: bold;
+  font-weight: 900;
   position: relative;
   margin: 0;
   margin-bottom: 25px;
@@ -769,7 +770,7 @@ li.menu-has-child {
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
   transition: 0.3s;
   display: flex;
   align-items: center;
@@ -827,7 +828,7 @@ li.menu-has-child {
 .footer-title {
   color: #d3584c;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 900;
   padding: 15px 0;
   margin-bottom: 17px;
 }
@@ -888,6 +889,7 @@ li.menu-has-child {
   .footer-top .row {
     margin: 0;
   }
+
   .footer-top .row>div {
     padding: 0;
   }
@@ -948,7 +950,7 @@ li.menu-has-child {
 
 .popup-form-get h4 {
   margin: 0;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 28px;
   margin-bottom: 40px;
 }
@@ -989,7 +991,7 @@ ul.popup-form-social a {
   align-items: center;
   color: #d3584c;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 20px;
 }
 
@@ -1025,7 +1027,7 @@ ul.popup-form-social a {
   outline: 0;
   font-size: 12px;
   color: #245c43;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .popup-form-input {
@@ -1127,7 +1129,7 @@ ul.popup-form-social a {
 
 .error-inner h1 {
   font-size: 46px;
-  font-weight: bold;
+  font-weight: 900;
   margin: 0;
   margin-bottom: 30px;
 }
@@ -1164,7 +1166,7 @@ ul.popup-form-social a {
 
 .heading-page h1 {
   margin: 0;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 58px;
 }
 
@@ -1191,7 +1193,7 @@ ul.popup-form-social a {
   margin: 0;
   font-size: 36px;
   color: #e34d44;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 35px;
 }
 
@@ -1222,7 +1224,7 @@ ul.popup-form-social a {
 .about-list-item h4 {
   margin: 0;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 20px;
 }
 
@@ -1253,7 +1255,7 @@ ul.popup-form-social a {
 .about-mission-vision h4 {
   margin: 0;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 20px;
 }
 
@@ -1387,7 +1389,7 @@ ul.popup-form-social a {
   flex-direction: column;
   align-items: center;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 30px;
 }
 
@@ -1407,7 +1409,7 @@ ul.popup-form-social a {
 
 .contact-info p span {
   display: block;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .contact-info p a {
@@ -1517,11 +1519,13 @@ ul.popup-form-social a {
   visibility: visible;
   transition: 0.5s;
 }
+
 .gallery-item.gallery-more a {
   height: 100%;
   display: flex;
   align-items: center;
 }
+
 @media (max-width: 767px) {
   .gallery-item {
     width: 50%;
@@ -1587,7 +1591,7 @@ ul.popup-form-social a {
 .project-detail h3 {
   font-size: 16px;
   margin: 0;
-  font-weight: bold;
+  font-weight: 900;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -1608,7 +1612,7 @@ ul.popup-form-social a {
   justify-content: center;
   background: #fff;
   color: #d3584c;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
   min-height: 30px;
 }
@@ -1711,7 +1715,7 @@ ul.popup-form-social a {
 }
 
 .project-list ul li a.active {
-  font-weight: bold;
+  font-weight: 900;
   text-decoration: underline;
 }
 
@@ -1722,7 +1726,7 @@ ul.popup-form-social a {
 .project-detail-text h1 {
   color: #245c43;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 30px;
 }
 
@@ -1749,7 +1753,7 @@ ul.popup-form-social a {
 
 .project-detail-text ul li span {
   color: #202020;
-  font-weight: bold;
+  font-weight: 900;
   flex: 0 0 105px;
 }
 
@@ -1802,7 +1806,7 @@ ul.popup-form-social a {
 
 .projects-another-inner a p {
   color: #d3584c;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 5px;
 }
 
@@ -1863,7 +1867,7 @@ ul.popup-form-social a {
   margin: 0;
   font-size: 14px;
   color: #e34d44;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -1872,7 +1876,7 @@ ul.popup-form-social a {
   margin: 0;
   font-size: 36px;
   color: #244d3d;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 40px;
 }
 
@@ -1918,7 +1922,7 @@ ul.popup-form-social a {
 
 .delivery-text h5 {
   margin: 0;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 5px;
 }
 
@@ -1939,5 +1943,211 @@ ul.popup-form-social a {
   .delivery-item {
     width: 100%;
     padding: 25px !important;
+  }
+}
+
+/* Start tekla  */
+.tekla-structures {
+  background: url(../images/bg_tekla_1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.tekla-structures-title {
+  text-align: center;
+  color: #fff;
+}
+
+.tekla-structures-title h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.tekla-structures-title h3 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.tekla-list {
+  margin: 40px 0;
+}
+
+.tekla-list .panel-group {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tekla-list .panel-group .panel {
+  padding: 0 15px;
+  width: 50%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 30px !important;
+}
+
+.tekla-list .panel-group .panel+.panel {
+  margin: 0;
+}
+
+.tekla-list .panel-group .panel .panel-heading {
+  border: 0;
+  background: #fff;
+  border-radius: 0;
+  padding: 25px 20px;
+}
+
+.tekla-list .panel-group .panel .panel-heading a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #d3584c;
+  position: relative;
+}
+
+.tekla-list .panel-group .panel .panel-heading a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.tekla-list .panel-group .panel .panel-heading a:before {
+  content: "\f068";
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+  font-size: 22px;
+}
+
+.tekla-list .panel-group .panel .panel-heading a.collapsed:before {
+  content: "\f067";
+}
+
+.tekla-list .panel-group .panel .panel-collapse {
+  background: #fff;
+  border: 0;
+}
+
+.tekla-list .panel-group .panel .panel-collapse .panel-body {
+  border: 0;
+  padding: 20px;
+  padding-top: 5px;
+  font-size: 14px;
+  color: #202020;
+}
+
+.tekla-projects-item {
+  position: relative;
+}
+
+.tekla-project-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.tekla-project-content a {
+  width: 48px;
+  height: 48px;
+  background: #d3584c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tekla-project-content a:before,
+.tekla-project-content a:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 22px;
+  background: #fff;
+}
+
+.tekla-project-content a:after {
+  transform: rotate(90deg);
+}
+
+.tekla-projects-item:hover .tekla-project-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tekla-projects button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff !important;
+  font-size: 24px !important;
+}
+
+.tekla-projects button.owl-prev {
+  left: 10%;
+}
+
+.tekla-projects button.owl-next {
+  right: 10%;
+}
+
+.tekla-work {
+  background: url(../images/bg_tekla_2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+}
+
+.tekla-work-content {
+  text-align: center;
+  color: #fff;
+}
+
+.tekla-work-content h4 {
+  font-size: 26px;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.tekla-work-content p {
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.tekla-work-content .btn-main {
+  background: #fff;
+  color: #e44d44;
+}
+
+@media (max-width: 767px) {
+  .tekla-list .panel-group .panel {
+    width: 100%;
+  }
+
+  .tekla-work-content p {
+    max-width: 100%;
   }
 }
