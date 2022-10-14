@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    new WOW().init();
     $('.header-bar').on('click', function () {
         $(this).toggleClass('active')
         $('.header-menu').toggleClass('is-show');
