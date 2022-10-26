@@ -4,10 +4,9 @@ $(document).ready(function () {
         $(this).toggleClass('active')
         $('.header-menu').toggleClass('is-show');
     });
-    $('li.menu-has-child a').on('click', function (e) {
+    $('li.menu-has-child > a').on('click', function (e) {
         e.preventDefault();
         $(this).toggleClass('is-show')
         $(this).parent().toggleClass('is-show');
     });
-    
 });
