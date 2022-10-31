@@ -60,7 +60,7 @@ header {
 
 ul.header-menu-child {
   position: absolute;
-  min-width: 250px;
+  min-width: 335px;
   background: #fff;
   list-style: none;
   top: 58px;
@@ -104,7 +104,7 @@ ul.header-menu-child li a {
   color: #254d3d;
   padding: 10px 5px;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 25px;
   border-bottom: 1px solid #ddd;
 }
 
