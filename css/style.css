@@ -1122,7 +1122,7 @@ ul.popup-form-social a {
   background: url(../images/banner.png) no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: calc(100vh - 476px);
+  min-height: 915px;
 }
 
 .page-error .container {
@@ -1139,15 +1139,17 @@ ul.popup-form-social a {
 }
 
 .error-inner h1 {
-  font-size: 46px;
+  font-size: 67px;
   font-weight: 900;
   margin: 0;
   margin-bottom: 30px;
 }
 
 .error-inner p {
+  font-size: 20px;
+  max-width: 60%;
+  margin: 0 auto;
   margin-bottom: 30px;
-  font-size: 14px;
 }
 
 .btn-main {
