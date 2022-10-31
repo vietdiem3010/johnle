@@ -1175,7 +1175,7 @@ ul.popup-form-social a {
 /* Start page about  */
 .heading-page {
   background: #1e3e31;
-  padding: 70px 0;
+  padding: 86px 0;
   text-align: center;
   color: #fff;
 }
@@ -1183,7 +1183,7 @@ ul.popup-form-social a {
 .heading-page h1 {
   margin: 0;
   font-weight: 900;
-  font-size: 58px;
+  font-size: 80px;
 }
 
 .about-story {
@@ -1207,16 +1207,24 @@ ul.popup-form-social a {
 
 .about-story-text h4 {
   margin: 0;
-  font-size: 36px;
+  font-size: 50px;
   color: #e34d44;
   font-weight: 900;
   margin-bottom: 35px;
 }
-
+.about-story-text p {
+  margin-bottom: 30px;
+}
+.about-story-text p, 
+.about-story-text ul {
+    font-size: 19px;
+}
 .about-story-text ul {
   padding-left: 20px;
 }
-
+.about-story-text ul li+li {
+  margin-top: 30px;  
+}
 .about-list {
   background: url(../images/bg_about_2.png) no-repeat;
   background-size: cover;
@@ -1233,21 +1241,21 @@ ul.popup-form-social a {
 .about-list-item {
   width: calc(100% / 3);
   text-align: center;
-  padding: 15px;
+  padding: 30px 15px;
   color: #fff;
 }
 
 .about-list-item h4 {
   margin: 0;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 900;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .about-list-item p {
   margin: 0 auto;
-  font-size: 16px;
-  max-width: 80%;
+  font-size: 23px;
 }
 
 .about-mission-vision {
@@ -1270,13 +1278,13 @@ ul.popup-form-social a {
 
 .about-mission-vision h4 {
   margin: 0;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 900;
   margin-bottom: 20px;
 }
 
 .about-mission-vision p {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -1298,7 +1306,7 @@ ul.popup-form-social a {
 }
 
 .about-contact-inner p {
-  font-size: 19px;
+  font-size: 26px;
   color: #202020;
   font-weight: 500;
   margin: 0;
