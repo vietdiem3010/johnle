@@ -42,7 +42,7 @@ img {
 /* Header */
 header {
   background: #244d3d;
-  padding: 25px 0;
+  padding: 49px 0;
 }
 
 .header-inner {
@@ -68,7 +68,7 @@ ul.header-menu-child {
 }
 
 .header-menu ul li a {
-  font-size: 16px;
+  font-size: 25px;
   color: #fff;
   display: block;
   position: relative;
@@ -97,7 +97,7 @@ ul.header-menu-child li a:hover,
   font-size: 20px;
   position: absolute;
   right: -18px;
-  top: -3px;
+  top: 4px;
 }
 
 ul.header-menu-child li a {
@@ -140,7 +140,7 @@ li.menu-has-child {
 .header-phone a {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 25px;
   color: #fff;
 }
 
@@ -813,13 +813,13 @@ li.menu-has-child {
 /* Start footer  */
 .footer-top {
   background: #244d3d;
-  padding: 50px 0 40px;
+  padding: 80px 0 60px;
   color: #fff;
 }
 
 .footer-info p {
   margin-top: 20px;
-  font-size: 13px;
+  font-size: 20px;
   text-align: justify;
   margin-bottom: 0;
 }
@@ -834,7 +834,7 @@ li.menu-has-child {
 
 .footer-title {
   color: #d3584c;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 900;
   padding: 15px 0;
   margin-bottom: 17px;
@@ -852,7 +852,7 @@ li.menu-has-child {
   border-bottom: 1px solid #7c948b;
   border-left: 0;
   border-right: 0;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .footer-contact li:first-child {
@@ -884,11 +884,11 @@ li.menu-has-child {
 
 .footer-copyright {
   background: #d3584c;
-  height: 56px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -1152,7 +1152,7 @@ ul.popup-form-social a {
   background: #d3584c;
   color: #fff;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 18px;
   padding: 15px 20px;
   text-align: center;
 }
@@ -1869,7 +1869,7 @@ ul.popup-form-social a {
   background: url(../images/bg_devlivery.png) no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: calc(100vh - 228px);
+  min-height: 670px;
   display: flex;
   align-items: center;
 }
@@ -1879,7 +1879,7 @@ ul.popup-form-social a {
 
 .delivery-inner h5 {
   margin: 0;
-  font-size: 14px;
+  font-size: 19px;
   color: #e34d44;
   font-weight: 900;
   text-transform: uppercase;
@@ -1888,15 +1888,15 @@ ul.popup-form-social a {
 
 .delivery-inner h1 {
   margin: 0;
-  font-size: 36px;
+  font-size: 50px;
   color: #244d3d;
   font-weight: 900;
   margin-bottom: 40px;
 }
 
 .delivery-inner p {
-  font-size: 14px;
-  max-width: 400px;
+  font-size: 19px;
+  max-width: 600px;
   color: #202020;
   margin-bottom: 50px;
 }
@@ -1904,6 +1904,7 @@ ul.popup-form-social a {
 .delivery-inner .btn-main {
   background: #fff;
   color: #d3584c;
+  font-weight: bold;
 }
 
 .delivery-info {
@@ -1965,7 +1966,8 @@ ul.popup-form-social a {
   background: url(../images/bg_tekla_1.png) no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 125px 0;
+  padding-bottom: 100px;
 }
 
 .tekla-structures-title {
@@ -1974,7 +1976,7 @@ ul.popup-form-social a {
 }
 
 .tekla-structures-title h5 {
-  font-size: 14px;
+  font-size: 19px;
   text-transform: uppercase;
   font-weight: 900;
   margin: 0;
@@ -1984,11 +1986,12 @@ ul.popup-form-social a {
 .tekla-structures-title h3 {
   margin: 0;
   font-weight: 900;
-  font-size: 36px;
+  font-size: 50px;
 }
 
 .tekla-list {
-  margin: 40px 0;
+  margin-top: 85px;
+  margin-bottom: 130px;
 }
 
 .tekla-list .panel-group {
@@ -2015,13 +2018,13 @@ ul.popup-form-social a {
   border: 0;
   background: #fff;
   border-radius: 0;
-  padding: 25px 20px;
+  padding: 25px;
 }
 
 .tekla-list .panel-group .panel .panel-heading a {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 900;
   text-transform: uppercase;
   color: #d3584c;
@@ -2053,9 +2056,9 @@ ul.popup-form-social a {
 
 .tekla-list .panel-group .panel .panel-collapse .panel-body {
   border: 0;
-  padding: 20px;
+  padding: 25px;
   padding-top: 5px;
-  font-size: 14px;
+  font-size: 19px;
   color: #202020;
 }
 
@@ -2130,7 +2133,7 @@ ul.popup-form-social a {
   background: url(../images/bg_tekla_2.png) no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 60px 0;
+  padding: 90px 0;
 }
 
 .tekla-work-content {
@@ -2139,16 +2142,17 @@ ul.popup-form-social a {
 }
 
 .tekla-work-content h4 {
-  font-size: 26px;
+  font-size: 40px;
   font-weight: 900;
   margin: 0;
   margin-bottom: 30px;
 }
 
 .tekla-work-content p {
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
   margin-bottom: 40px;
+  font-size: 20px;
 }
 
 .tekla-work-content .btn-main,
