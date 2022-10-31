@@ -784,7 +784,7 @@ li.menu-has-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 42px;
+  min-height: 60px;
 }
 
 .request-form-btn {
@@ -1384,7 +1384,7 @@ ul.popup-form-social a {
 
 .contact-text p {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 20px;
   color: #202020;
   font-weight: 500;
 }
@@ -1416,7 +1416,7 @@ ul.popup-form-social a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 900;
   margin-bottom: 30px;
 }
@@ -1431,7 +1431,7 @@ ul.popup-form-social a {
 .contact-info p {
   margin-bottom: 20px;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -1442,7 +1442,7 @@ ul.popup-form-social a {
 
 .contact-info p a {
   color: #d3584c;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 @media (max-width: 767px) {
