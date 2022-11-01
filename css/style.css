@@ -2205,3 +2205,27 @@ ul.popup-form-social a {
     max-width: 100%;
   }
 }
+/* Start structures  */
+.recent-box {
+  padding: 135px 0;
+}
+
+.recent-box .pagination-box {
+  margin: 0;
+}
+
+.recent-box .pagination-box ul {
+  justify-content: center;
+}
+
+.recent-title {
+  text-align: center;
+  font-size: 50px;
+  color: #d3584c;
+  font-weight: bold;
+  margin-bottom: 110px;
+}
+
+
+
+/* End structures  */
