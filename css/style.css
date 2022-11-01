@@ -1170,6 +1170,9 @@ ul.popup-form-social a {
   .page-error {
     min-height: 100vh;
   }
+  .error-inner h1 {
+    font-size: 50px;
+  }
 }
 
 /* Start page about  */
@@ -1215,15 +1218,15 @@ ul.popup-form-social a {
 .about-story-text p {
   margin-bottom: 30px;
 }
-.about-story-text p, 
+.about-story-text p,
 .about-story-text ul {
-    font-size: 19px;
+  font-size: 19px;
 }
 .about-story-text ul {
   padding-left: 20px;
 }
-.about-story-text ul li+li {
-  margin-top: 30px;  
+.about-story-text ul li + li {
+  margin-top: 30px;
 }
 .about-list {
   background: url(../images/bg_about_2.png) no-repeat;
@@ -1322,7 +1325,7 @@ ul.popup-form-social a {
   }
 
   .heading-page h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .about-image {
@@ -1879,6 +1882,10 @@ ul.popup-form-social a {
   .projects-box > div {
     width: 100%;
   }
+  .project-button a {
+    min-width: inherit;
+    padding: 0 20px;
+  }
 }
 
 /* Start delivery */
@@ -1891,10 +1898,6 @@ ul.popup-form-social a {
   display: flex;
   align-items: center;
 }
-
-.delivery-inner h5 {
-}
-
 .delivery-inner h5 {
   margin: 0;
   font-size: 19px;
@@ -1967,7 +1970,7 @@ ul.popup-form-social a {
 
 @media (max-width: 767px) {
   .delivery-page {
-    min-height: 50vh;
+    min-height: 90vh;
   }
 
   .delivery-info {
