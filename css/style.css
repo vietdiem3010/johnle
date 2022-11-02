@@ -2225,7 +2225,130 @@ ul.popup-form-social a {
   font-weight: bold;
   margin-bottom: 110px;
 }
+.building-box {
+  padding: 150px 0;
+  position: relative;
+  overflow: hidden;
+}
 
+[class*="building-bg-"] {
+  position: absolute;
+}
 
+.building-service {
+  position: relative;
+  text-align: center;
+}
 
+.building-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  color: #d04d43;
+  margin-bottom: 30px;
+}
+
+.building-service-item {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: #202020;
+}
+
+.building-service-item.building-service-item-1 {
+  top: 140px;
+}
+
+.building-service-item.building-service-item-2 {
+  top: 150px;
+  right: 0;
+}
+
+.building-service-item.building-service-item-3 {
+  bottom: 100px;
+  left: -35px;
+}
+
+.building-service-item.building-service-item-4 {
+  bottom: 100px;
+  right: -100px;
+}
+.building-service-item.building-service-item-2 .building-service-icon,
+.building-service-item.building-service-item-4 .building-service-icon {
+  order: 1;
+}
+.building-service-icon {
+  border: 1px solid #d04d43;
+  padding: 10px;
+}
+
+.building-service-icon span {
+  background: #f5f2f2;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.building-bg-1 {
+  left: -400px;
+}
+
+img.building-bg-2 {
+  right: -450px;
+  bottom: -25%;
+  max-width: 85%;
+}
+.building-service-item p {
+  margin: 0;
+}
+
+.building-service-item.building-service-item-2 p,
+.building-service-item.building-service-item-4 p {
+  order: 2;
+  margin-left: 18px;
+  flex: 0 0 255px;
+  text-align: left;
+}
+
+.building-service-item.building-service-item-1 p,
+.building-service-item.building-service-item-3 p {
+  margin-right: 15px;
+}
+.building-service-icon:before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: #d04d43;
+  position: absolute;
+  top: 50%;
+  right: -65px;
+}
+
+.building-service-item.building-service-item-2 .building-service-icon:before,
+.building-service-item.building-service-item-4 .building-service-icon:before {
+  left: -65px;
+  right: auto;
+}
+@media (max-width: 767px) {
+  .structural-stell-page {
+    min-height: 100vh;
+    padding: 50px 0;
+  }
+  .building-service-item {
+    position: static;
+  }
+
+  .building-service-icon:before {
+    display: none;
+  }
+
+  .building-box {
+    padding: 60px 0;
+  }
+}
 /* End structures  */
