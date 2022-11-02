@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -290,10 +291,12 @@ li.menu-has-child {
   font-size: 18px;
   display: inline-block;
 }
+
 .banner-button:hover {
   color: #fff;
   background: #e34d44;
 }
+
 @media (max-width: 767px) {
   .banner-inner h1 {
     font-size: 30px;
@@ -469,10 +472,12 @@ li.menu-has-child {
   color: #fff;
   min-height: 500px;
 }
+
 .services-heading .container {
   position: relative;
   z-index: 9999;
 }
+
 .services-heading h5 {
   margin: 0;
   font-size: 20px;
@@ -737,9 +742,11 @@ li.menu-has-child {
   position: absolute;
   bottom: 0;
 }
+
 .request-form p {
   font-size: 18px;
 }
+
 .request-form p a {
   color: #d3584c;
 }
@@ -1162,14 +1169,17 @@ ul.popup-form-social a {
   padding: 15px 20px;
   text-align: center;
 }
+
 .btn-main:hover {
   background: #fff;
   color: #d3584c;
 }
+
 @media (max-width: 767px) {
   .page-error {
     min-height: 100vh;
   }
+
   .error-inner h1 {
     font-size: 50px;
   }
@@ -1215,19 +1225,24 @@ ul.popup-form-social a {
   font-weight: 900;
   margin-bottom: 35px;
 }
+
 .about-story-text p {
   margin-bottom: 30px;
 }
+
 .about-story-text p,
 .about-story-text ul {
   font-size: 19px;
 }
+
 .about-story-text ul {
   padding-left: 20px;
 }
+
 .about-story-text ul li + li {
   margin-top: 30px;
 }
+
 .about-list {
   background: url(../images/bg_about_2.png) no-repeat;
   background-size: cover;
@@ -1314,11 +1329,13 @@ ul.popup-form-social a {
   font-weight: 500;
   margin: 0;
 }
+
 @media (min-width: 992px) {
   .about-story {
     min-height: 800px;
   }
 }
+
 @media (max-width: 767px) {
   .heading-page {
     padding: 30px 0;
@@ -1882,6 +1899,7 @@ ul.popup-form-social a {
   .projects-box > div {
     width: 100%;
   }
+
   .project-button a {
     min-width: inherit;
     padding: 0 20px;
@@ -1898,6 +1916,7 @@ ul.popup-form-social a {
   display: flex;
   align-items: center;
 }
+
 .delivery-inner h5 {
   margin: 0;
   font-size: 19px;
@@ -2182,12 +2201,14 @@ ul.popup-form-social a {
   background: #fff;
   color: #e44d44;
 }
+
 .tekla-work-content .btn-main:hover,
 .delivery-inner .btn-main:hover,
 .project-detail a:hover {
   background: #e44d44;
   color: #fff;
 }
+
 .tekla-project-content a:hover {
   background: #fff;
 }
@@ -2196,6 +2217,7 @@ ul.popup-form-social a {
 .tekla-project-content a:hover:after {
   background: #d3584c;
 }
+
 @media (max-width: 767px) {
   .tekla-list .panel-group .panel {
     width: 100%;
@@ -2205,6 +2227,7 @@ ul.popup-form-social a {
     max-width: 100%;
   }
 }
+
 /* Start structures  */
 .recent-box {
   padding: 135px 0;
@@ -2225,6 +2248,7 @@ ul.popup-form-social a {
   font-weight: bold;
   margin-bottom: 110px;
 }
+
 .building-box {
   padding: 150px 0;
   position: relative;
@@ -2276,10 +2300,12 @@ ul.popup-form-social a {
   bottom: 100px;
   right: -100px;
 }
+
 .building-service-item.building-service-item-2 .building-service-icon,
 .building-service-item.building-service-item-4 .building-service-icon {
   order: 1;
 }
+
 .building-service-icon {
   border: 1px solid #d04d43;
   padding: 10px;
@@ -2303,6 +2329,7 @@ img.building-bg-2 {
   bottom: -25%;
   max-width: 85%;
 }
+
 .building-service-item p {
   margin: 0;
 }
@@ -2319,6 +2346,7 @@ img.building-bg-2 {
 .building-service-item.building-service-item-3 p {
   margin-right: 15px;
 }
+
 .building-service-icon:before {
   content: "";
   width: 60px;
@@ -2334,11 +2362,13 @@ img.building-bg-2 {
   left: -65px;
   right: auto;
 }
+
 @media (max-width: 767px) {
   .structural-stell-page {
     min-height: 100vh;
     padding: 50px 0;
   }
+
   .building-service-item {
     position: static;
   }
@@ -2351,4 +2381,156 @@ img.building-bg-2 {
     padding: 60px 0;
   }
 }
+
 /* End structures  */
+/* Start welding  */
+.services-box.welding-page {
+  margin: 0;
+}
+
+.services-box.welding-page p {
+  font-size: 19px;
+  text-align: center;
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.welding-page .services-heading {
+  min-height: 755px;
+}
+.welding-quote-owl {
+  margin-top: -318px;
+  position: relative;
+  z-index: 9;
+}
+
+.welding-quote-owl .services-text {
+  position: relative;
+  background: #fff;
+  color: #202020;
+  text-align: center;
+  padding: 50px 20px 70px;
+}
+
+.welding-quote-owl .services-text h4 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.welding-quote-owl .services-text p {
+  color: #6c6c6c;
+  font-size: 19px;
+}
+
+.welding-quote-owl .services-owl .owl-nav button.owl-next {
+  right: -60px;
+  left: auto;
+}
+
+.welding-quote-owl .services-owl .owl-nav button {
+  left: -60px;
+  top: 43%;
+  background: rgb(255 255 255 / 70%) !important;
+}
+.welding-quote {
+  background: url(../images/welding-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+  margin-top: -287px;
+  padding-top: 400px;
+}
+.welding-quote-inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.welding-quote-inner > div {
+  padding: 0 15px;
+}
+
+.welding-quote-text {
+  width: 60%;
+}
+
+.welding-quote-icon {
+  width: 40%;
+}
+
+.welding-quote-text span {
+  display: inline-block;
+  color: #e34d44;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: 2px solid #e34d44;
+  margin-bottom: 30px;
+}
+
+.welding-quote-text h3 {
+  margin: 0;
+  font-size: 50px;
+  color: #202020;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.welding-quote-text p {
+  font-size: 22px;
+  color: #202020;
+  margin-bottom: 30px;
+}
+
+.welding-quote-icon-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+
+.welding-quote-icon-img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e34d44;
+}
+
+.welding-quote-icon-item + .welding-quote-icon-item {
+  margin-top: 30px;
+}
+
+.welding-quote-icon-item p {
+  font-size: 24px;
+  margin: 0;
+  margin-left: 30px;
+}
+@media (max-width: 767px) {
+  .welding-quote-owl {
+    margin-top: -330px;
+  }
+
+  .welding-quote {
+    padding-top: 350px;
+    padding-bottom: 100px;
+  }
+
+  .welding-quote-inner > div {
+    width: 100%;
+  }
+
+  .welding-quote-owl .services-owl .owl-nav button {
+    left: 0;
+  }
+
+  .welding-quote-owl .services-owl .owl-nav button.owl-next {
+    right: 0;
+  } 
+  .welding-page .services-heading {
+    min-height: 850px;
+  }
+}
+/* End welding  */
