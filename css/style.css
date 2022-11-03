@@ -1126,7 +1126,7 @@ ul.popup-form-social a {
 /* End popup request  */
 .page-error {
   position: relative;
-  background: url(../images/banner.png) no-repeat;
+  background: url(../images/404_banner.png) no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 915px;
