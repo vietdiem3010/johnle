@@ -2528,7 +2528,7 @@ img.building-bg-2 {
 
   .welding-quote-owl .services-owl .owl-nav button.owl-next {
     right: 0;
-  } 
+  }
   .welding-page .services-heading {
     min-height: 850px;
   }
@@ -2591,7 +2591,7 @@ img.building-bg-2 {
 }
 
 .distribution-item {
-  width: calc(100%/3);
+  width: calc(100% / 3);
   padding: 0 15px;
 }
 
@@ -2644,7 +2644,7 @@ img.building-bg-2 {
   border-bottom: 1px solid;
 }
 
-.distribution-list+.pagination-box ul {
+.distribution-list + .pagination-box ul {
   justify-content: center;
 }
 .distribution-request {
@@ -2667,27 +2667,211 @@ img.building-bg-2 {
   text-align: center;
   margin-top: 50px;
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .distribution-text p {
     flex: auto !important;
     width: 100%;
     padding: 15px 0 !important;
-}
+  }
 
-.distribution-text {
+  .distribution-text {
     padding: 35px 0px;
-}
+  }
 
-.distribution-text p:first-child:after {
+  .distribution-text p:first-child:after {
     display: none;
-}
+  }
 
-.distribution-item {
+  .distribution-item {
     width: 100%;
-}
+  }
 
-.request-box.distribution-request {
+  .request-box.distribution-request {
     margin-top: 75px;
+  }
 }
+.distribution-detail-heading h5,
+.distribution-detail-heading h1 {
+  color: #fff;
 }
 
+.distribution-detail-heading h1 {
+  font-size: 110px;
+}
+
+.distribution-detail-heading p {
+  margin: 0;
+  color: #fff;
+  font-size: 23px;
+  background: #244d3d;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.distribution-detail-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 170px;
+}
+
+.distribution-detail-info-img {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.distribution-detail-info-text {
+  width: 40%;
+  padding-left: 40px;
+}
+
+.distribution-detail-info-img img {
+  max-width: 100%;
+  width: 50%;
+}
+
+.distribution-detail-info-img img:last-child {
+  margin-top: 80px;
+  padding-left: 40px;
+}
+
+.distribution-detail-info-text h5 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.distribution-detail-info-text p {
+  color: #858585;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.distribution-detail-info-text ul li {
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.distribution-detail-info-text ul {
+  list-style: none;
+}
+
+.distribution-detail-info-text ul li:before {
+  content: "\f058";
+  font-family: "FontAwesome";
+  color: #d3584c;
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.distribution-detail-info-text ul li + li {
+  border-top: 1px solid #ddd;
+}
+
+.distribution-button a {
+  font-size: 20px;
+  background: #d3584c;
+  color: #fff;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+}
+
+.distribution-button {
+  display: flex;
+  gap: 25px;
+}
+
+.distribution-button a:hover {
+  background: #fff;
+  color: #d3584c;
+  border-color: #d3584c;
+}
+
+.distribution-button a:last-child {
+  background: #fff;
+  color: #d3584c;
+  border-color: #d3584c;
+}
+
+.distribution-button a:last-child:hover {
+  background: #d3584c;
+  color: #fff;
+  border-color: #d3584c;
+}
+.distribution-button a i {
+  margin-right: 15px;
+  font-size: 22px;
+}
+.distribution-description-img {
+  background: url(../images/distribution/03_details.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.distribution-description {
+  display: flex;
+  flex-wrap: wrap;
+  background: #d3584c;
+  margin: 200px 0;
+}
+
+.distribution-description > div {
+  width: 50%;
+}
+
+.distribution-description-text {
+  padding: 75px;
+  color: #fff;
+}
+
+.distribution-description-text h4 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.distribution-description-text p {
+  font-size: 22px;
+}
+
+.distribution-description-text p + p {
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .distribution-detail-info > div {
+    width: 100%;
+    padding: 0;
+  }
+
+  .distribution-detail-info-text {
+    margin-top: 50px;
+  }
+
+  .distribution-button a {
+    font-size: 16px;
+  }
+
+  .distribution-description {
+    margin: 100px 0;
+  }
+
+  .distribution-description > div {
+    width: 100%;
+  }
+
+  .distribution-description-text {
+    padding: 35px;
+  }
+
+  .distribution-detail-info {
+    margin-top: 100px;
+  }
+}
