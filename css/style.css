@@ -870,9 +870,9 @@ li.menu-has-child {
 }
 
 .footer-contact li i {
-  flex: 0 0 25px;
+  flex: 0 0 38px;
   color: #d3584c;
-  font-size: 15px;
+  font-size: 26px;
 }
 
 .footer-social {
@@ -2534,3 +2534,160 @@ img.building-bg-2 {
   }
 }
 /* End welding  */
+.distribution-heading {
+  min-height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.distribution-heading h5 {
+  font-size: 19px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.distribution-heading h1 {
+  font-size: 50px;
+}
+.distribution-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+.distribution-text p:first-child {
+  flex: 0 0 33.3333%;
+  font-size: 21px;
+  font-style: italic;
+  padding-right: 40px;
+  position: relative;
+}
+
+.distribution-text p:last-child {
+  flex: 0 0 66.66666667%;
+  font-size: 19px;
+  padding-left: 40px;
+}
+
+.distribution-text p {
+  margin: 0;
+}
+
+.distribution-text p:first-child:after {
+  content: "";
+  background: #e34d44;
+  width: 1px;
+  height: 128px;
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+.distribution-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.distribution-item {
+  width: calc(100%/3);
+  padding: 0 15px;
+}
+
+.distribution-item > a {
+  display: block;
+  position: relative;
+}
+
+.distribution-item > a:before {
+  content: "";
+  background: hsl(0deg 0% 0% / 40%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.distribution-item > a:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.distribution-item .distribution-info {
+  margin-bottom: 80px;
+}
+
+.distribution-item .distribution-info h3 {
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+.distribution-item .distribution-info h3 a {
+  font-size: 34px;
+  color: #202020;
+}
+
+.distribution-item .distribution-info p {
+  margin: 0;
+  color: #818080;
+  font-size: 23px;
+  margin-bottom: 35px;
+}
+
+.distribution-item .distribution-info .distribution-more {
+  font-size: 23px;
+  color: #e34d44;
+  border-bottom: 1px solid;
+}
+
+.distribution-list+.pagination-box ul {
+  justify-content: center;
+}
+.distribution-request {
+  background: #e34d44;
+  margin-top: 140px;
+  position: relative;
+  bottom: -100px;
+}
+.distribution-request .request-form h2:before {
+  display: none;
+}
+.distribution-request .request-form {
+  padding: 120px 60px;
+}
+.distribution-request .request-form p a {
+  color: #fff;
+  font-weight: bold;
+}
+.distribution-request .banner-button {
+  text-align: center;
+  margin-top: 50px;
+}
+@media (max-width: 767px){
+  .distribution-text p {
+    flex: auto !important;
+    width: 100%;
+    padding: 15px 0 !important;
+}
+
+.distribution-text {
+    padding: 35px 0px;
+}
+
+.distribution-text p:first-child:after {
+    display: none;
+}
+
+.distribution-item {
+    width: 100%;
+}
+
+.request-box.distribution-request {
+    margin-top: 75px;
+}
+}
+
