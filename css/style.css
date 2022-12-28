@@ -1843,6 +1843,8 @@ ul.popup-form-social a {
 .projects-another-inner {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  min-height: 56px;
 }
 
 .another-next {
@@ -1853,8 +1855,14 @@ ul.popup-form-social a {
   color: #6c6c6c;
   font-size: 18px;
   width: 50%;
+  position: absolute;
 }
-
+.projects-another-inner .another-prev {
+    left: 0;
+}
+.projects-another-inner .another-next {
+    right: 0;
+}
 .projects-another-inner a p {
   color: #d3584c;
   font-weight: 900;
